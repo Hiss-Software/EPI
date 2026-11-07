@@ -1,0 +1,91 @@
+# Build
+build/
+build-*/
+out/
+cmake-build-*/
+
+# CMake / Ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CMakeUserPresets.json
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+_deps/
+
+# Binaries / libs
+epi
+epi.exe
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.pch
+*.gch
+*.gcda
+*.gcno
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.ipch
+*.VC.db
+*.VC.opendb
+
+# Package manager artifacts
+*.epi-manifest
+*.part
+*.download
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.xz
+*.tar.bz2
+*.7z
+*.rar
+
+# Local registry (keep registry/registry.epi, ignore everything else)
+registry.epi
+registry.new.epi
+*.epi
+!registry/registry.epi
+
+# Logs
+*.log
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
